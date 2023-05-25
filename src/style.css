@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  padding: 20px;
+  padding: 0px;
   box-sizing: border-box;
   position: relative;
 }
@@ -15,6 +15,7 @@ body{
 
 .selectedVideo-container{
   padding: 5px;
+ 
 }
 
 .mainPage-header{
@@ -23,7 +24,7 @@ body{
   left: 0;
   right: 0;
   z-index: 1;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display:flex;
   flex-flow:row;
   justify-content:start;
@@ -31,6 +32,8 @@ body{
   gap:20px;
   background-color: white;
   padding-left: 25px;
+ /* border: 1px solid red; */
+ box-shadow: 10px 5px 20px #e6e3e3
   
 }
 

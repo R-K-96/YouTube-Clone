@@ -18,7 +18,7 @@ function App() {
 
       <SearchVideos addVideos={setVideos}/>
 
-      <div style={{display:"flex"}}>
+      <div style={{display:"flex",padding:"20px"}}>
         <div style={{width:"75vw"}}>
           <PlaySelectedVideo video={selectedVideo}/>
         </div>
